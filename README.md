@@ -21,6 +21,7 @@ This application is a browser-based quiz that helps users learn and test their u
 - Clean, responsive user interface
 - Progress tracking through questions
 - Added two more question
+- Added a new feature
 
 ## Project Structure
 ```
