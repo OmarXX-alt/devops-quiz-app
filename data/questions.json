@@ -257,5 +257,44 @@
     ],
     "answerIndex": 1,
     "explanation": "Continuous Deployment requires robust automated testing, monitoring, and rollback capabilities to safely deploy changes automatically without manual intervention."
-  }
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Writing application code for servers",
+      "Managing infrastructure through machine-readable configuration files",
+      "Coding in assembly language",
+      "Installing software manually"
+    ],
+    "answerIndex": 1,
+    "explanation": "Infrastructure as Code manages and provisions infrastructure through code and configuration files rather than manual processes, enabling version control and automation."
+  },
+  {
+    "id": "Q19",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code?",
+    "options": [
+      "Microsoft Word",
+      "Terraform",
+      "Photoshop",
+      "Excel"
+    ],
+    "answerIndex": 1,
+    "explanation": "Terraform is a popular IaC tool that allows developers to define and provision infrastructure using declarative configuration files."
+  },
+    {
+        "id": "Q20",
+        "topic": "Infrastructure as Code",
+        "question": "What is a benefit of using IaC?",
+        "options": [
+        "Manual configuration of servers",
+        "Consistency and repeatability in infrastructure deployment",
+        "Increased downtime",
+        "More human errors"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC provides consistency and repeatability by allowing infrastructure to be defined in code, reducing human errors and enabling automated deployments."
+    }
 ]
