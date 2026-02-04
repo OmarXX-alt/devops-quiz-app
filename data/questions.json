@@ -1,0 +1,300 @@
+[
+  {
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "What is the primary goal of DevOps culture?",
+    "options": [
+      "To replace developers with operations staff",
+      "To break down silos between development and operations teams",
+      "To eliminate the need for testing",
+      "To reduce the number of deployments"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps culture emphasizes collaboration and breaking down traditional silos between development and operations teams to improve efficiency and quality."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which principle is NOT a core value of DevOps?",
+    "options": [
+      "Collaboration",
+      "Automation",
+      "Working in isolation",
+      "Continuous improvement"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps encourages collaboration and shared responsibility, not isolation. Working in silos contradicts DevOps principles."
+  },
+  {
+    "id": "Q3",
+    "topic": "DevOps Culture",
+    "question": "What does 'shift-left' mean in DevOps?",
+    "options": [
+      "Moving servers to the left rack",
+      "Performing testing and security checks earlier in the development cycle",
+      "Reducing the number of developers",
+      "Deploying only on weekdays"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shift-left refers to moving quality assurance, testing, and security activities earlier in the software development lifecycle to catch issues sooner."
+  },
+  {
+    "id": "Q4",
+    "topic": "DevOps Culture",
+    "question": "What is blameless culture in DevOps?",
+    "options": [
+      "Never acknowledging mistakes",
+      "Focusing on learning from failures rather than blaming individuals",
+      "Avoiding all risks",
+      "Ignoring production incidents"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blameless culture encourages teams to learn from failures and improve processes rather than blaming individuals, fostering psychological safety and continuous improvement."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What type of version control system is Git?",
+    "options": [
+      "Centralized",
+      "Distributed",
+      "Local-only",
+      "Cloud-based only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git is a Distributed Version Control System (DVCS), meaning every developer has a complete copy of the repository history on their local machine."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "What is the purpose of a Pull Request in GitHub?",
+    "options": [
+      "To download code from the repository",
+      "To propose changes and enable code review before merging",
+      "To delete a branch",
+      "To create a new repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull Requests allow developers to propose changes, discuss them with team members, and conduct code reviews before merging into the main branch."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control Systems",
+    "question": "What does 'git clone' do?",
+    "options": [
+      "Creates a new branch",
+      "Creates a complete copy of a remote repository locally",
+      "Merges two branches",
+      "Deletes the repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 'git clone' command creates a local copy of a remote repository, including all files, branches, and commit history."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control Systems",
+    "question": "What is a merge conflict?",
+    "options": [
+      "When Git cannot automatically combine changes from different branches",
+      "When a repository is too large",
+      "When commits are made too frequently",
+      "When a branch is deleted"
+    ],
+    "answerIndex": 0,
+    "explanation": "A merge conflict occurs when Git cannot automatically resolve differences between code changes in different branches, requiring manual resolution."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration?",
+    "options": [
+      "Automatically deploy to production",
+      "Frequently integrate code changes into a shared repository",
+      "Eliminate the need for testing",
+      "Remove the need for branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Integration aims to detect integration issues early by frequently merging code changes into a shared repository and running automated tests."
+  },
+  {
+    "id": "Q10",
+    "topic": "Continuous Integration",
+    "question": "Which practice is essential for effective CI?",
+    "options": [
+      "Manual testing only",
+      "Automated testing",
+      "Monthly code integration",
+      "Working on separate codebases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated testing is crucial for CI as it provides rapid feedback on code changes and ensures that integration doesn't break existing functionality."
+  },
+  {
+    "id": "Q11",
+    "topic": "Continuous Integration",
+    "question": "How often should developers commit code in a CI environment?",
+    "options": [
+      "Once a month",
+      "Once a week",
+      "At least once a day",
+      "Only when features are complete"
+    ],
+    "answerIndex": 2,
+    "explanation": "In CI, developers should commit code at least daily to enable early detection of integration issues and maintain code synchronization across the team."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Integration",
+    "question": "What happens when a CI build fails?",
+    "options": [
+      "The issue is ignored until the next sprint",
+      "The team should fix it immediately as top priority",
+      "It is automatically rolled back",
+      "Development continues as normal"
+    ],
+    "answerIndex": 1,
+    "explanation": "When a CI build fails, the team should prioritize fixing it immediately to maintain the integrity of the codebase and prevent blocking other developers."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Automatically deploying every change to production",
+      "Ensuring code is always in a deployable state",
+      "Delivering features once a year",
+      "Manual deployment process"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures that code is always in a releasable state through automated testing and build processes, though deployment to production may still be manual."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Delivery",
+    "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "There is no difference",
+      "Continuous Deployment automatically deploys to production, Continuous Delivery requires manual approval",
+      "Continuous Delivery is faster",
+      "Continuous Deployment only works with Docker"
+    ],
+    "answerIndex": 1,
+    "explanation": "While both practices automate the release pipeline, Continuous Deployment automatically pushes changes to production, whereas Continuous Delivery requires a manual decision to deploy."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Delivery",
+    "question": "What is a deployment pipeline?",
+    "options": [
+      "A physical pipe for servers",
+      "An automated process that takes code from version control to production",
+      "A type of database",
+      "A manual checklist"
+    ],
+    "answerIndex": 1,
+    "explanation": "A deployment pipeline is an automated sequence of stages (build, test, deploy) that code passes through from version control to production environments."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Automatically deploying every change to production",
+      "Ensuring code is always in a deployable state",
+      "Delivering features once a year",
+      "Manual deployment process"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures that code is always in a releasable state through automated testing and build processes, though deployment to production may still be manual."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Delivery",
+    "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "There is no difference",
+      "Continuous Deployment automatically deploys to production, Continuous Delivery requires manual approval",
+      "Continuous Delivery is faster",
+      "Continuous Deployment only works with Docker"
+    ],
+    "answerIndex": 1,
+    "explanation": "While both practices automate the release pipeline, Continuous Deployment automatically pushes changes to production, whereas Continuous Delivery requires a manual decision to deploy."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Delivery",
+    "question": "What is a deployment pipeline?",
+    "options": [
+      "A physical pipe for servers",
+      "An automated process that takes code from version control to production",
+      "A type of database",
+      "A manual checklist"
+    ],
+    "answerIndex": 1,
+    "explanation": "A deployment pipeline is an automated sequence of stages (build, test, deploy) that code passes through from version control to production environments."
+  },{
+    "id": "Q16",
+    "topic": "Continuous Deployment",
+    "question": "In Continuous Deployment, when are changes deployed to production?",
+    "options": [
+      "Once a month on release day",
+      "Automatically after passing all automated tests",
+      "Only during business hours",
+      "When the product owner approves"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys every change that passes all stages of the automated pipeline to production without manual intervention."
+  },
+  {
+    "id": "Q17",
+    "topic": "Continuous Deployment",
+    "question": "What is required for successful Continuous Deployment?",
+    "options": [
+      "Large deployment teams",
+      "Comprehensive automated testing and monitoring",
+      "Monthly release schedules",
+      "Manual quality assurance"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment requires robust automated testing, monitoring, and rollback capabilities to safely deploy changes automatically without manual intervention."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Writing application code for servers",
+      "Managing infrastructure through machine-readable configuration files",
+      "Coding in assembly language",
+      "Installing software manually"
+    ],
+    "answerIndex": 1,
+    "explanation": "Infrastructure as Code manages and provisions infrastructure through code and configuration files rather than manual processes, enabling version control and automation."
+  },
+  {
+    "id": "Q19",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is commonly used for Infrastructure as Code?",
+    "options": [
+      "Microsoft Word",
+      "Terraform",
+      "Photoshop",
+      "Excel"
+    ],
+    "answerIndex": 1,
+    "explanation": "Terraform is a popular IaC tool that allows developers to define and provision infrastructure using declarative configuration files."
+  },
+    {
+        "id": "Q20",
+        "topic": "Infrastructure as Code",
+        "question": "What is a benefit of using IaC?",
+        "options": [
+        "Manual configuration of servers",
+        "Consistency and repeatability in infrastructure deployment",
+        "Increased downtime",
+        "More human errors"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC provides consistency and repeatability by allowing infrastructure to be defined in code, reducing human errors and enabling automated deployments."
+    }
+]
