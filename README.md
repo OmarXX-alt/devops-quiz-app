@@ -17,10 +17,9 @@ This application is a browser-based quiz that helps users learn and test their u
 - Interactive quiz interface with topic selection
 - 20+ curated DevOps questions across multiple topics
 - Immediate feedback on answer selection
-- Detailed explanations for each question vbenfvnec
+- Detailed explanations for each question
 - Clean, responsive user interface
 - Progress tracking through questions
-- Add example
 
 ## Project Structure
 ```
