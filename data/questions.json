@@ -102,5 +102,57 @@
     ],
     "answerIndex": 0,
     "explanation": "A merge conflict occurs when Git cannot automatically resolve differences between code changes in different branches, requiring manual resolution."
+  },
+  {
+    "id": "Q9",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration?",
+    "options": [
+      "Automatically deploy to production",
+      "Frequently integrate code changes into a shared repository",
+      "Eliminate the need for testing",
+      "Remove the need for branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Integration aims to detect integration issues early by frequently merging code changes into a shared repository and running automated tests."
+  },
+  {
+    "id": "Q10",
+    "topic": "Continuous Integration",
+    "question": "Which practice is essential for effective CI?",
+    "options": [
+      "Manual testing only",
+      "Automated testing",
+      "Monthly code integration",
+      "Working on separate codebases"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated testing is crucial for CI as it provides rapid feedback on code changes and ensures that integration doesn't break existing functionality."
+  },
+  {
+    "id": "Q11",
+    "topic": "Continuous Integration",
+    "question": "How often should developers commit code in a CI environment?",
+    "options": [
+      "Once a month",
+      "Once a week",
+      "At least once a day",
+      "Only when features are complete"
+    ],
+    "answerIndex": 2,
+    "explanation": "In CI, developers should commit code at least daily to enable early detection of integration issues and maintain code synchronization across the team."
+  },
+  {
+    "id": "Q12",
+    "topic": "Continuous Integration",
+    "question": "What happens when a CI build fails?",
+    "options": [
+      "The issue is ignored until the next sprint",
+      "The team should fix it immediately as top priority",
+      "It is automatically rolled back",
+      "Development continues as normal"
+    ],
+    "answerIndex": 1,
+    "explanation": "When a CI build fails, the team should prioritize fixing it immediately to maintain the integrity of the codebase and prevent blocking other developers."
   }
 ]
