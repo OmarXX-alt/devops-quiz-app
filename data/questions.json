@@ -193,5 +193,69 @@
     ],
     "answerIndex": 1,
     "explanation": "A deployment pipeline is an automated sequence of stages (build, test, deploy) that code passes through from version control to production environments."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Automatically deploying every change to production",
+      "Ensuring code is always in a deployable state",
+      "Delivering features once a year",
+      "Manual deployment process"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures that code is always in a releasable state through automated testing and build processes, though deployment to production may still be manual."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Delivery",
+    "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "There is no difference",
+      "Continuous Deployment automatically deploys to production, Continuous Delivery requires manual approval",
+      "Continuous Delivery is faster",
+      "Continuous Deployment only works with Docker"
+    ],
+    "answerIndex": 1,
+    "explanation": "While both practices automate the release pipeline, Continuous Deployment automatically pushes changes to production, whereas Continuous Delivery requires a manual decision to deploy."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Delivery",
+    "question": "What is a deployment pipeline?",
+    "options": [
+      "A physical pipe for servers",
+      "An automated process that takes code from version control to production",
+      "A type of database",
+      "A manual checklist"
+    ],
+    "answerIndex": 1,
+    "explanation": "A deployment pipeline is an automated sequence of stages (build, test, deploy) that code passes through from version control to production environments."
+  },{
+    "id": "Q16",
+    "topic": "Continuous Deployment",
+    "question": "In Continuous Deployment, when are changes deployed to production?",
+    "options": [
+      "Once a month on release day",
+      "Automatically after passing all automated tests",
+      "Only during business hours",
+      "When the product owner approves"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys every change that passes all stages of the automated pipeline to production without manual intervention."
+  },
+  {
+    "id": "Q17",
+    "topic": "Continuous Deployment",
+    "question": "What is required for successful Continuous Deployment?",
+    "options": [
+      "Large deployment teams",
+      "Comprehensive automated testing and monitoring",
+      "Monthly release schedules",
+      "Manual quality assurance"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment requires robust automated testing, monitoring, and rollback capabilities to safely deploy changes automatically without manual intervention."
   }
 ]
