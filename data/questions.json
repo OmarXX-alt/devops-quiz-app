@@ -50,5 +50,57 @@
     ],
     "answerIndex": 1,
     "explanation": "Blameless culture encourages teams to learn from failures and improve processes rather than blaming individuals, fostering psychological safety and continuous improvement."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What type of version control system is Git?",
+    "options": [
+      "Centralized",
+      "Distributed",
+      "Local-only",
+      "Cloud-based only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git is a Distributed Version Control System (DVCS), meaning every developer has a complete copy of the repository history on their local machine."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control Systems",
+    "question": "What is the purpose of a Pull Request in GitHub?",
+    "options": [
+      "To download code from the repository",
+      "To propose changes and enable code review before merging",
+      "To delete a branch",
+      "To create a new repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull Requests allow developers to propose changes, discuss them with team members, and conduct code reviews before merging into the main branch."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control Systems",
+    "question": "What does 'git clone' do?",
+    "options": [
+      "Creates a new branch",
+      "Creates a complete copy of a remote repository locally",
+      "Merges two branches",
+      "Deletes the repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 'git clone' command creates a local copy of a remote repository, including all files, branches, and commit history."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control Systems",
+    "question": "What is a merge conflict?",
+    "options": [
+      "When Git cannot automatically combine changes from different branches",
+      "When a repository is too large",
+      "When commits are made too frequently",
+      "When a branch is deleted"
+    ],
+    "answerIndex": 0,
+    "explanation": "A merge conflict occurs when Git cannot automatically resolve differences between code changes in different branches, requiring manual resolution."
   }
 ]
