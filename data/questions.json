@@ -154,5 +154,44 @@
     ],
     "answerIndex": 1,
     "explanation": "When a CI build fails, the team should prioritize fixing it immediately to maintain the integrity of the codebase and prevent blocking other developers."
+  },
+  {
+    "id": "Q13",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Automatically deploying every change to production",
+      "Ensuring code is always in a deployable state",
+      "Delivering features once a year",
+      "Manual deployment process"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures that code is always in a releasable state through automated testing and build processes, though deployment to production may still be manual."
+  },
+  {
+    "id": "Q14",
+    "topic": "Continuous Delivery",
+    "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      "There is no difference",
+      "Continuous Deployment automatically deploys to production, Continuous Delivery requires manual approval",
+      "Continuous Delivery is faster",
+      "Continuous Deployment only works with Docker"
+    ],
+    "answerIndex": 1,
+    "explanation": "While both practices automate the release pipeline, Continuous Deployment automatically pushes changes to production, whereas Continuous Delivery requires a manual decision to deploy."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Delivery",
+    "question": "What is a deployment pipeline?",
+    "options": [
+      "A physical pipe for servers",
+      "An automated process that takes code from version control to production",
+      "A type of database",
+      "A manual checklist"
+    ],
+    "answerIndex": 1,
+    "explanation": "A deployment pipeline is an automated sequence of stages (build, test, deploy) that code passes through from version control to production environments."
   }
 ]
