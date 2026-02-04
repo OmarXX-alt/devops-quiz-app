@@ -1,0 +1,53 @@
+[{
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "What is the primary goal of DevOps culture?",
+    "options": [
+      "To replace developers with operations staff",
+      "To break down silos between development and operations teams",
+      "To eliminate the need for testing",
+      "To reduce the number of deployments"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps culture emphasizes collaboration and breaking down traditional silos between development and operations teams to improve efficiency and quality."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which principle is NOT a core value of DevOps?",
+    "options": [
+      "Collaboration",
+      "Automation",
+      "Working in isolation",
+      "Continuous improvement"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps encourages collaboration and shared responsibility, not isolation. Working in silos contradicts DevOps principles."
+  },
+  {
+    "id": "Q3",
+    "topic": "DevOps Culture",
+    "question": "What does 'shift-left' mean in DevOps?",
+    "options": [
+      "Moving servers to the left rack",
+      "Performing testing and security checks earlier in the development cycle",
+      "Reducing the number of developers",
+      "Deploying only on weekdays"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shift-left refers to moving quality assurance, testing, and security activities earlier in the software development lifecycle to catch issues sooner."
+  },
+  {
+    "id": "Q4",
+    "topic": "DevOps Culture",
+    "question": "What is blameless culture in DevOps?",
+    "options": [
+      "Never acknowledging mistakes",
+      "Focusing on learning from failures rather than blaming individuals",
+      "Avoiding all risks",
+      "Ignoring production incidents"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blameless culture encourages teams to learn from failures and improve processes rather than blaming individuals, fostering psychological safety and continuous improvement."
+  }
+]
