@@ -20,7 +20,7 @@ This application is a browser-based quiz that helps users learn and test their u
 - Detailed explanations for each question jhjnjmkm 
 - Clean, responsive user interface
 - Progress tracking through questions
-- Added one more question
+- Added two more question
 
 ## Project Structure
 ```
